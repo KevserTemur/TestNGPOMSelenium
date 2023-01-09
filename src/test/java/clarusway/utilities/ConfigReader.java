@@ -1,23 +1,19 @@
-package clarusway.utulities;
+package clarusway.utilities;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-
-        
-    public static Properties properties;
-
-    static{
-        String filePath="configuration.properties";
+    static Properties properties;
+    static {
+        String path = "config.properties";
         try {
-            FileInputStream fis=new FileInputStream(filePath);
-
-            properties=new Properties();
+            FileInputStream fis = new FileInputStream(path);
+            properties = new Properties();
             properties.load(fis);
 
-            fis.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
