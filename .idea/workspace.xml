@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8771f152-afa2-4b06-afc2-e4f1a0295b2b" name="Changes" comment="" />
+    <list default="true" id="8771f152-afa2-4b06-afc2-e4f1a0295b2b" name="Changes" comment="POM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02_C02_PageClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02_C03_OPTIONALPageClassV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02_C03_PageClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02_C04_PageClassFindAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/pages/AmazonPageV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/pages/HtmlGoodiesHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clarusway/pages/HtmlGoodiesHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/pages/SauceDemoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clarusway/pages/SauceDemoHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day01_C01_DriverExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day01_C01_DriverExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day01_C02_ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day01_C02_ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02/C05_OptionalPageClassV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02/C05_OptionalPageClassV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02_C02_PageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/clarusway/tests/Day02_C02_PageClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/clarusway/pages/AmazonPageV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/clarusway/pages/HtmlGoodiesHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/clarusway/pages/HtmlGoodiesHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/clarusway/tests/Day02/C05_OptionalPageClassV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/clarusway/tests/Day02/C05_OptionalPageClassV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/clarusway/tests/Day02_C04_PageClassFindAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/clarusway/tests/Day02_C04_PageClassFindAll.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,29 +51,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Fatih/eclipse-workspace/CWTestNGSelenium",
+    "last_opened_file_path": "C:/Users/Pc/IdeaProjects/CWTestNGPOMSelenium",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C05_OptionalPageClassV1.testName">
-    <configuration name="C01_PageClass.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CWTestNGPOMSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clarusway.tests.Day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="clarusway.tests.Day02" />
-      <option name="MAIN_CLASS_NAME" value="clarusway.tests.Day02.C01_PageClass" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C02_PageClass.test">
     <configuration name="C02_PageClass.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CWTestNGPOMSelenium" />
       <extension name="coverage">
@@ -125,13 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day02_C03_PageClassExample.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CWTestNGPOMSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clarusway.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="clarusway.tests" />
+      <option name="MAIN_CLASS_NAME" value="clarusway.tests.Day02_C03_PageClassExample" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day02_C03_PageClassExample.test" />
         <item itemvalue="TestNG.C05_OptionalPageClassV1.testName" />
         <item itemvalue="TestNG.C04_PageClassFindAll.test01" />
         <item itemvalue="TestNG.C03_PageClass.testName" />
         <item itemvalue="TestNG.C02_PageClass.test" />
-        <item itemvalue="TestNG.C01_PageClass.test" />
       </list>
     </recent_temporary>
   </component>
@@ -145,9 +166,56 @@
       <updated>1672947528819</updated>
       <workItem from="1673027137177" duration="9290000" />
     </task>
+    <task id="LOCAL-00001" summary="POM">
+      <created>1673287027395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287027395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="POM">
+      <created>1673287055423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287055423</updated>
+    </task>
+    <task id="LOCAL-00003" summary="POM">
+      <created>1673287090206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287090206</updated>
+    </task>
+    <task id="LOCAL-00004" summary="POM">
+      <created>1673287108006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287108006</updated>
+    </task>
+    <task id="LOCAL-00005" summary="POM">
+      <created>1673287123813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287123813</updated>
+    </task>
+    <task id="LOCAL-00006" summary="POM">
+      <created>1673287143345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673287143345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM" />
   </component>
 </project>
